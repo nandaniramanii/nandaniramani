@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        body{
+            background-image: url('login.jpg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        header {
+    background-color:green;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items:center;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline;
+    margin-right: 50px;
+    font-size: 25px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+li :hover{
+    color: green;
+    background-color: #fff;
+} 
+.main {
+    background-color: #fff;
+    margin: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+}
+h1 {
+    color: black
+}
+h2{
+    color: green;
+}
+label {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+}
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+
+    padding: 10px;
+
+    box-sizing: border-box;
+
+    border: 1px solid #ddd;
+
+    border-radius: 5px;
+}
+button {
+
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: green;
+    width: 100%;
+    font-size: 16px;
+}
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}     
+    </style>
+</head>
+<body bgcolor="black">
+    <header>
+        
+        <img src="E:\restorant save image\download.png" width="7%">
+        <h1>NK RESTORANT</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="gellary.html">GALLARY</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="contactus.html">CONTACT US</a></li>
+                <li><b><i><u><a href="login.html">LOGIN</a></u></i></b></li>
+             </nav>
+    </header>
+
+    <center>
+    <div class="main">
+        <form action="">
+            
+             <div class="cell">
+                <label for="First name">FIRST NAME</label>
+                <input type="text" placeholder="ENTER YOUR NAME" required>
+            </div>
+            <div class="cell">
+                <label for="Last name">LAST NAME</label>
+                <input type="text" placeholder="ENTER YOUR LAST NAME" id="text" required>
+            </div>
+            <div class="cell">
+                <label for="password">CREATE PASSWORD</label>
+                <input type="password" placeholder="SET THE NEW PASSWORD" id="text" required>
+            </div>
+            <div class="cell">
+                <label for="Email">E-MAIL ID</label>
+                <input type="email" placeholder="ENTER YOU MAIL ID(Ex:-abc123@gmail.com)" id="text" required>
+            </div>
+            <div class="wrap">
+                <a href="login.html">
+                <input type="button"
+                    value="Registration" style="background-color: green;color: white; padding-inline: 220px;padding-block: 20px ;border-radius: 30px;">
+                </a>
+          </div>
+      </form> 
+    </div>
+    </center>
+</body>
+</html>
